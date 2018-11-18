@@ -1,0 +1,95 @@
+img {
+	width:450px;
+    height: auto;
+}
+
+mospace-heroarea .mospace-heroarea--name, mospace-heroarea .mospace-heroarea--donations-target-amount-number {
+    font-family: "Overpass",sans-serif !important;
+    letter-spacing: normal;
+}
+p, h1, h2 {
+	font-family: "Overpass",sans-serif;
+    letter-spacing: normal;
+
+}
+
+h1{
+	font-size: 50px;
+	font-weight: 700;
+}
+
+body{
+	margin: 0;
+}
+
+#profile_pic{
+	float:left;
+	margin-left: 3%;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 70px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+#info{
+	padding-left: 20px;
+}
+#nav_image{
+	position: fixed;
+	width: 100%;
+  	top: 0;
+	box-shadow: 0px 7px 36px -10px rgba(168,168,168,1);
+}
+
+#logo{
+	width:6%;
+    height: auto;
+    float: right;
+}
+
+#footer{
+	width: 100%;
+  	bottom: 0;
+}
+
+#motivation{
+	width: 60%;
+}
+
+#target{
+	width: 50%;
+}
+
+#buttons{
+	margin-left: : 20%;
+}
+
+#balance{
+	display: inline;
+}
+
+button{
+	       display: inline-block;
+    vertical-align: middle;
+    padding: 0 15px;
+    font-size: 16px;
+    font-family: "Anton",sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-decoration: none !important;
+    border-width: 2px;
+    border-style: solid;
+    min-height: 48px;
+    line-height: 45px;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: background-color .1s ease, color .1s ease, border-color .1s ease;
+    transition: background-color .1s ease, color .1s ease, border-color .1s ease;
+    color: #FFF;
+    background-color: #00ADA8;
+    border-color: #00ADA8;
+}
